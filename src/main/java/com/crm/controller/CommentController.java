@@ -17,6 +17,8 @@ public class CommentController {
     @PostMapping
     public String createComment(@RequestBody Comment comment, @RequestParam long postId){
         System.out.println(1000);
+        System.out.println(30000;
+        System.out.println(5000);
 
        commentService.createComment(comment,postId);
        return "comment created";
